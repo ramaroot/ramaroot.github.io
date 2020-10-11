@@ -1,0 +1,123 @@
+/* Google Fonts
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lexend Mega', sans-serif;
+    font-family: 'Lexend Zetta', sans-serif;
+*/
+   
+/* Colors:
+    Red-Brown #734432;
+    Dark Brown #412D1D;
+    Ashy Blue: #6F8ABF;
+    Orange: #A66F3F;
+    Olive: #A8AA89;
+*/
+body {
+    background-color: black;
+}
+/* Element Styles */
+* {
+    font-family: Lexend Deca;
+    color: #412D1D;
+}
+
+h1 {
+    font-family: Lexend Mega;
+    font-size: 88px;
+    color: #734432;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: Lexend Zetta;
+    font-size: 48px;
+    color: #734432;
+}
+
+h3 {
+    font-family: Lexend Mega;
+    font-size: 24px;
+}
+
+p {
+    font-size: 36px;
+}
+
+/* Class Styles */
+.pb {
+    font-size: 48px;
+}
+
+.ps {
+    font-size: 24px;
+}
+
+.n1 {
+    font-family: Lexend Mega;
+    font-size: 36px;
+    color: #6F8ABF;
+}
+
+.n2 {
+    font-family: Lexend Mega;
+    font-size: 24px;
+    color: #6F8ABF;
+}
+
+/* Grid */
+.landingTop {
+height: 66vh;
+background-image: url("../images/thoughtbubble.png");
+background-position: top;
+background-repeat: no-repeat;
+}
+
+.landingBottom {
+height: 33vh;
+}
+
+.thoughtBubble {
+    margin-left: 25%;
+    margin-right: 25%;
+    align-items: center;
+    display: flex;
+}
+#bubble {
+    position: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "resume reveal reveal about"
+    "blank uiux graphic graphic";
+}
+#resume {
+    grid-area: resume;
+    align-items:center;
+    justify-content: center;
+}
+#about {
+    grid-area: about;
+    align-items:center;
+    justify-content: center;
+}
+#uiux {
+    grid-area: uiux;
+    align-items:center;
+    justify-content: center;
+}
+#graphic {
+    grid-area: graphic;
+    align-items:center;
+    justify-content: center;
+}
+#blank {
+    grid-area: blank;
+    align-items:center;
+    justify-content: center;
+}
+#reveal {
+    grid-area: reveal;
+    align-items:center;
+    justify-content: center;
+}
+
