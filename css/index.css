@@ -1,0 +1,68 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo {
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+
+nav {
+    width: 73%;
+    padding: 1%;
+}
+ul {
+    width: 50%;
+    margin-left: auto;
+}
+
+/* Element Styles */
+* {
+    font-family: Lexend Deca;
+    color: #412D1D;
+}
+
+h1 {
+    font-family: Lexend Mega;
+    font-size: 88px;
+    color: #734432;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: Lexend Zetta;
+    font-size: 48px;
+    color: #734432;
+}
+
+h3 {
+    font-family: Lexend Mega;
+    font-size: 24px;
+}
+
+p {
+    font-size: 36px;
+}
+
+/* Class Styles */
+.pb {
+    font-size: 48px;
+}
+
+.ps {
+    font-size: 24px;
+}
+
+.n1 {
+    font-family: Lexend Mega;
+    font-size: 36px;
+    color: #6F8ABF;
+}
+
+.n2 {
+    font-family: Lexend Mega;
+    font-size: 24px;
+    color: #6F8ABF;
+}
