@@ -98,3 +98,26 @@ p {
     font-size: 24px;
     color: #6F8ABF;
 }
+
+/* Stupid span */
+#inlineZ {
+    font-family: Lexend Zetta;
+    font-size: 26px;
+    color: #734432;
+}
+
+.strikeout {
+    font-size: 24px;
+    line-height: 24px;
+    position: relative;
+  }
+
+.strikeout::after {
+    border-bottom: 12px solid #412D1D;
+    content: "";
+    left: 0;
+    margin-top: calc(3px / 2 * -1);
+    position: absolute;
+    right: 0;
+    top: 50%;
+  }
