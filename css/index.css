@@ -4,6 +4,7 @@
     padding: 0px;
     margin: 0px;
     text-align: center;
+    list-style-type: none;
 }
 
 .logo {
@@ -16,6 +17,7 @@ nav {
     width: 73%;
     padding: 1%;
 }
+
 ul {
     width: 50%;
     margin-left: auto;
