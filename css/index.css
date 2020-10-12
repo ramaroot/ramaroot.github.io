@@ -1,6 +1,9 @@
 .inline-block {
     display: inline-block;
     vertical-align: top;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
 }
 
 .logo {
@@ -16,6 +19,33 @@ nav {
 ul {
     width: 50%;
     margin-left: auto;
+}
+
+.heroimg {
+   height: 600px;
+   padding: 25px;
+}
+
+content {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.footer {
+    background-color: #373738;
+    padding: 10px;
+}
+
+footer.ul {
+    display: inline-block;
+    vertical-align: top;
+    padding: 25px;
+}
+
+.navlist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 /* Element Styles */
