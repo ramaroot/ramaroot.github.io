@@ -1,26 +1,48 @@
-.inline-block {
-    display: inline-block;
-    vertical-align: top;
-    padding: 0px;
-    margin: 0px;
-    text-align: center;
-    list-style-type: none;
+/* Center align content */
+body {
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
-.logo {
-    width: 23%;
-    padding: 1%;
-    text-align: center;
-}
+/* STUPID NAVIGATION BAR */
 
-nav {
+#navigation-container {
+    width: 100%;
+    margin: 0 auto;
+    height: 10%;
+}
+  
+.navigation-bar {
     width: 73%;
     padding: 1%;
 }
+  
+.navigation-bar ul {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    float: left;
+}
+  
+.navigation-bar li {
+    list-style-type: none;
+    padding: 0px;
+    height: 24px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: inline;
+}
+  
+.navigation-bar li a {
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 70px;
+    padding: 5px 15px;
+    opacity: 0.7;
+}
 
-ul {
-    width: 50%;
-    margin-left: auto;
+.logo {
+float: left
 }
 
 .heroimg {
@@ -28,26 +50,10 @@ ul {
    padding: 25px;
 }
 
-content {
-    width: 500px;
-    margin: 0 auto;
-}
-
-.footer {
-    background-color: #373738;
-    padding: 10px;
-}
-
-footer.ul {
-    display: inline-block;
-    vertical-align: top;
-    padding: 25px;
-}
-
-.navlist {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+/* Text wrap that prevents my border from working*/
+.left {
+    float: left;
+    padding: 0 10px 0 0;
 }
 
 /* Element Styles */
@@ -61,12 +67,14 @@ h1 {
     font-size: 88px;
     color: #734432;
     text-transform: uppercase;
+    margin-bottom: 0;
 }
 
 h2 {
     font-family: Lexend Zetta;
     font-size: 48px;
     color: #734432;
+    margin-top: 0;
 }
 
 h3 {
@@ -78,7 +86,7 @@ p {
     font-size: 36px;
 }
 
-/* Class Styles */
+/* Font Class Styles */
 .pb {
     font-size: 48px;
 }
