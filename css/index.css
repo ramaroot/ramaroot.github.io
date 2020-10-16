@@ -1,11 +1,29 @@
-/* Center align content */
+/* Google Fonts
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lexend Mega', sans-serif;
+    font-family: 'Lexend Zetta', sans-serif;
+*/
+   
+/* Colors:
+    Red-Brown #734432;
+    Dark Brown #412D1D;
+    Ashy Blue: #6F8ABF;
+    Orange: #A66F3F;
+    Olive: #A8AA89;
+*/
+
+/* See the divs, comment out before publishing */
+div {
+    border: 1pt solid red;
+}
+
+/* Center align content in window */
 body {
     max-width: 1280px;
     margin: 0 auto;
 }
 
 /* STUPID NAVIGATION BAR */
-
 #navigation-container {
     width: 100%;
     margin: 0 auto;
@@ -58,7 +76,7 @@ button {
 /* Text wrap that prevents my border from working*/
 .left {
     float: left;
-    margin: 0 10px 0 0;
+    margin: 0 10px 10px 0;
 }
 
 /* Element Styles */
@@ -85,6 +103,7 @@ h2 {
 h3 {
     font-family: Lexend Mega;
     font-size: 24px;
+    margin-top: 0;
 }
 
 p {
@@ -113,6 +132,11 @@ p {
     text-decoration: none;
 }
 
+.n2 a:hover {
+    text-decoration: underline !important;
+    color: #A66F3F;
+}
+
 /* Stupid span */
 #inlineZ {
     font-family: Lexend Zetta;
@@ -134,4 +158,32 @@ p {
     position: absolute;
     right: 0;
     top: 50%;
+}
+
+.buttCenter {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/* GRID! Can I make it happen? Stay tuned. */
+
+.triColGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "leftCol centerCol rightCol";
+}
+
+#leftCol {
+    margin: 5%;
+}
+
+#centerCol {
+    margin: 5%;
+
+}
+
+#rightCol {
+    margin: 5%;
 }
