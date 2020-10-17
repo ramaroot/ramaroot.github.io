@@ -93,6 +93,7 @@ button {
 h1 {
     font-family: Lexend Mega;
     font-size: 88px;
+    font-weight: 100; 
     color: #734432;
     text-transform: uppercase;
     margin-bottom: 0;
@@ -101,6 +102,7 @@ h1 {
 h2 {
     font-family: Lexend Zetta;
     font-size: 48px;
+    font-weight: 300; 
     color: #734432;
     margin-top: 0;
 }
@@ -108,7 +110,6 @@ h2 {
 h3 {
     font-family: Lexend Mega;
     font-size: 24px;
-    margin-top: 0;
 }
 
 p {
