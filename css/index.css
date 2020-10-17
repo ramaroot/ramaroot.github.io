@@ -13,17 +13,20 @@
 */
 
 /* See the divs, comment out before publishing */
-div {
-    border: 1pt solid red;
-}
+
+/* div {
+    border: 1pt dotted red;
+} */
 
 /* Center align content in window */
+
 body {
     max-width: 1280px;
     margin: 0 auto;
 }
 
 /* STUPID NAVIGATION BAR */
+
 #navigation-container {
     width: 100%;
     margin: 0 auto;
@@ -74,12 +77,14 @@ button {
 } 
 
 /* Text wrap that prevents my border from working*/
+
 .left {
     float: left;
     margin: 0 10px 10px 0;
 }
 
 /* Element Styles */
+
 * {
     font-family: Lexend Deca;
     color: #412D1D;
@@ -111,6 +116,7 @@ p {
 }
 
 /* Font Class Styles */
+
 .pb {
     font-size: 48px;
 }
@@ -138,6 +144,7 @@ p {
 }
 
 /* Stupid span */
+
 #inlineZ {
     font-family: Lexend Zetta;
     font-size: 26px;
@@ -163,7 +170,6 @@ p {
 .buttCenter {
     display: flex;
     justify-content: center;
-    width: 100%;
 }
 
 /* GRID! Can I make it happen? Stay tuned. */
@@ -186,4 +192,31 @@ p {
 
 #rightCol {
     margin: 5%;
+}
+
+.researchPic {
+    min-width: 200px;
+    width: 100%;
+    height: 400px;
+    background-image: url("../images/placeholder.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.interfacePic {
+    min-width: 200px;
+    width: 100%;
+    height: 400px;
+    background-image: url("../images/placeholder.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.webDevPic {
+    min-width: 200px;
+    width: 100%;
+    height: 400px;
+    background-image: url("../images/placeholder.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
