@@ -1,0 +1,47 @@
+.rowRowRowYourGrid {
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas:
+    "row1Img row1Text"
+    "row2Img row2Text"
+    "row3Img row3Text"
+    ;
+}
+
+#row1Img {
+    grid-area: row1Img;
+    background-image: url("../images/lym.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#row1Text {
+    grid-area: row1Text;
+    margin: -2.5% 0 5% 5%;
+}
+
+#row2Img {
+    grid-area: row2Img;
+    background-image: url("../images/nasa.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#row2Text {
+    grid-area: row2Text;
+    margin: -2.5% 5%;
+}
+
+#row3Img {
+    grid-area: row3Img;
+    background-image: url("../images/c4c.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#row3Text {
+    grid-area: row3Text;
+    margin: -2.5% 5%;
+}
