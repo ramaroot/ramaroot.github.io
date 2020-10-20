@@ -3,6 +3,7 @@
 .triColGrid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
     grid-template-areas:
     "leftCol centerCol rightCol";
 }
@@ -44,4 +45,17 @@
     background-image: url("../images/placeholder.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
+}
+
+/* Media Query */
+@media only screen and (max-width:600px){
+    .triColGrid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas:
+        "leftCol"
+        "centerCol"
+        "rightCol";
+    }
 }
