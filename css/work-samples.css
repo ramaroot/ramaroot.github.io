@@ -15,6 +15,7 @@
     background-image: url("../images/lym.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
+    margin-bottom: 10px;
 }
 
 #row1Text {
@@ -27,6 +28,7 @@
     background-image: url("../images/nasa.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
+    margin-bottom: 10px;
 }
 
 #row2Text {
@@ -39,6 +41,7 @@
     background-image: url("../images/c4c.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
+    margin-bottom: 10px;
 }
 
 #row3Text {

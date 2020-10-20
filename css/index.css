@@ -128,6 +128,13 @@ p {
     color: #6F8ABF;
 }
 
+.n2 {
+    font-family: Lexend Mega;
+    font-size: 24px;
+    color: #6F8ABF;
+    text-decoration: none;
+}
+
 .n2 a {
     font-family: Lexend Mega;
     font-size: 24px;
@@ -179,7 +186,7 @@ p {
         padding: 5px 10px;
      }
 }
-@media only screen and (max-width:600px){
+  /* Kept for reference if decide to decrease font for small screens
     h1 {
         font-size: 60px;
     }
@@ -235,4 +242,4 @@ p {
         right: 0;
         top: 50%;
     }
-}
+    */
