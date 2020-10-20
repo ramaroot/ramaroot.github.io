@@ -1,23 +1,25 @@
-/* GRID! Can I make it happen? Stay tuned. */
+/* My UX Skills section coded using CSS flex */
 
-.triColGrid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas:
-    "leftCol centerCol rightCol";
+.flexContainer {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 #leftCol {
-    margin: 5%;
+    width: 33%;
+    margin: 1%;
 }
 
 #centerCol {
-    margin: 5%;
+    width: 33%;
+    margin: 1%;
 }
 
 #rightCol {
-    margin: 5%;
+    width: 33%;
+    margin: 1%;
 }
 
 .researchPic {
@@ -49,13 +51,24 @@
 
 /* Media Query */
 @media only screen and (max-width:600px){
-    .triColGrid {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        grid-template-areas:
-        "leftCol"
-        "centerCol"
-        "rightCol";
+    .flexContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: baseline;
+    }
+    
+    #leftCol {
+        width: 100%;
+    }
+    
+    #centerCol {
+        width: 100%;
+    }
+    
+    #rightCol {
+        width: 100%;
     }
 }
+
+
