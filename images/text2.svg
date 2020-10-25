@@ -1,0 +1,9 @@
+<svg id="text" xmlns="http://www.w3.org/2000/svg" width="398" height="190" viewBox="0 0 398 190">
+  <g id="Background" fill="#eeeee7" stroke="#a8aa89" stroke-width="3">
+    <rect width="398" height="190" rx="20" stroke="none"/>
+    <rect x="1.5" y="1.5" width="395" height="187" rx="18.5" fill="none"/>
+  </g>
+  <rect id="white" width="31" height="9" transform="translate(65 91)" fill="#fff"/>
+  <path id="Icon_material-textsms" data-name="Icon material-textsms" d="M57,3H9A5.992,5.992,0,0,0,3.03,9L3,63,15,51H57a6.018,6.018,0,0,0,6-6V9A6.018,6.018,0,0,0,57,3ZM24,30H18V24h6Zm12,0H30V24h6Zm12,0H42V24h6Z" transform="translate(47 68)" fill="#a8aa89"/>
+  <text id="text-2" data-name="text" transform="translate(137 113)" fill="#a8aa89" font-size="48" font-family="LexendZetta-Regular, Lexend Zetta"><tspan x="0" y="0">text</tspan></text>
+</svg>

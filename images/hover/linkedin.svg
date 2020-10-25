@@ -1,0 +1,41 @@
+<svg id="linkedin" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #dbe1eb;
+        stroke: #6f8abf;
+        stroke-width: 3px;
+      }
+
+      .cls-2 {
+        fill: #734432;
+        font-size: 10px;
+        font-family: LexendZetta-Regular, Lexend Zetta;
+        opacity: 0;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #6f8abf;
+      }
+
+      .cls-5 {
+        stroke: none;
+      }
+
+      .cls-6 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Background" class="cls-1">
+    <rect class="cls-5" width="100" height="100" rx="20"/>
+    <rect class="cls-6" x="1.5" y="1.5" width="97" height="97" rx="18.5"/>
+  </g>
+  <text id="social" class="cls-2" transform="translate(50 77)"><tspan x="-23.385" y="0">social</tspan></text>
+  <rect id="white" class="cls-3" width="31" height="31" transform="translate(35 35)"/>
+  <path id="Icon_simple-linkedin" data-name="Icon simple-linkedin" class="cls-4" d="M30.67,30.678H25.34V22.324c0-1.992-.041-4.556-2.778-4.556-2.779,0-3.2,2.167-3.2,4.409v8.5H14.026V13.5h5.121v2.342h.069a5.618,5.618,0,0,1,5.055-2.775c5.4,0,6.4,3.555,6.4,8.183v9.429ZM8.005,11.149a3.1,3.1,0,1,1,3.1-3.1A3.093,3.093,0,0,1,8.005,11.149Zm2.673,19.528H5.332V13.5h5.346ZM33.338,0H2.657A2.625,2.625,0,0,0,0,2.593V33.406A2.624,2.624,0,0,0,2.657,36H33.333A2.634,2.634,0,0,0,36,33.407V2.593A2.635,2.635,0,0,0,33.333,0Z" transform="translate(32 32)"/>
+</svg>

@@ -1,13 +1,17 @@
 .rowRowRowYourGrid {
     /* border: 1px solid red; */
     display: grid;
-    grid-template-rows: 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 2fr;
     grid-template-areas:
-    "row1Img row1Text"
-    "row2Img row2Text"
-    "row3Img row3Text"
+    "row1Img row1Text row1Text"
+    "row2Img row2Text row2Text"
+    "row3Img row3Text row3Text"
     ;
+}
+
+.rowRowRowYourGrid h3 {
+    margin-top: 0;
 }
 
 #row1Img {
@@ -20,7 +24,7 @@
 
 #row1Text {
     grid-area: row1Text;
-    margin: -2.5% 0 5% 5%;
+    margin-left: 25px;
 }
 
 #row2Img {
@@ -33,7 +37,7 @@
 
 #row2Text {
     grid-area: row2Text;
-    margin: -2.5% 5%;
+    margin-left: 25px;
 }
 
 #row3Img {
@@ -41,12 +45,13 @@
     background-image: url("../images/c4c.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
+    background-position: center;
     margin-bottom: 10px;
 }
 
 #row3Text {
     grid-area: row3Text;
-    margin: -2.5% 5%;
+    margin-left: 25px;
 }
 
 /* Media Query */

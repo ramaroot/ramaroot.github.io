@@ -1,0 +1,43 @@
+<svg id="call" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: #ede2d8;
+      }
+
+      .cls-1 {
+        stroke: #a66f3f;
+        stroke-width: 3px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #a66f3f;
+      }
+
+      .cls-4 {
+        font-size: 10px;
+        font-family: LexendZetta-Regular, Lexend Zetta;
+        opacity: 0;
+      }
+
+      .cls-5 {
+        stroke: none;
+      }
+
+      .cls-6 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Background" class="cls-1">
+    <rect class="cls-5" width="100" height="100" rx="20"/>
+    <rect class="cls-6" x="1.5" y="1.5" width="97" height="97" rx="18.5"/>
+  </g>
+  <rect id="white" class="cls-2" width="17" height="27" transform="translate(37 37)"/>
+  <path id="Icon_material-phonelink-ring" data-name="Icon material-phonelink-ring" class="cls-3" d="M30.15,11.55l-1.5,1.5a6.88,6.88,0,0,1,0,9.75l1.5,1.5a8.631,8.631,0,0,0,0-12.75ZM27,14.7l-1.5,1.5a2.926,2.926,0,0,1,0,3.45l1.5,1.5a4.526,4.526,0,0,0,0-6.45ZM21,1.5H6a3.009,3.009,0,0,0-3,3v27a3.009,3.009,0,0,0,3,3H21a3.009,3.009,0,0,0,3-3V4.5A3.009,3.009,0,0,0,21,1.5ZM21,30H6V6H21Z" transform="translate(32 32.5)"/>
+  <text id="call-2" data-name="call" class="cls-4" transform="translate(50 77)"><tspan x="-14.55" y="0">call</tspan></text>
+</svg>

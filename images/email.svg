@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <g id="email" transform="translate(-266 -350)">
+    <g id="Rectangle_39" data-name="Rectangle 39" transform="translate(266 350)" fill="#e3d9d6" stroke="#734432" stroke-width="3">
+      <rect width="100" height="100" rx="20" stroke="none"/>
+      <rect x="1.5" y="1.5" width="97" height="97" rx="18.5" fill="none"/>
+    </g>
+    <rect id="Rectangle_42" data-name="Rectangle 42" width="26" height="13" transform="translate(303 390)" fill="#fff"/>
+    <path id="Icon_material-email" data-name="Icon material-email" d="M30,6H6A3,3,0,0,0,3.015,9L3,27a3.009,3.009,0,0,0,3,3H30a3.009,3.009,0,0,0,3-3V9A3.009,3.009,0,0,0,30,6Zm0,6L18,19.5,6,12V9l12,7.5L30,9Z" transform="translate(298 382)" fill="#734432"/>
+  </g>
+</svg>

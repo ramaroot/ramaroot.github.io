@@ -1,0 +1,24 @@
+.row {
+  min-height: 200px;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.icon {
+
+}
+
+#contactIcon {
+z-index: 0;
+}
+
+#contactExpanded {
+  display:none;
+  z-index: 10;
+}
+
+/* #email, #text, #call, #social {
+  display: none;
+} */

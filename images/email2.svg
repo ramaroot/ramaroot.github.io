@@ -1,0 +1,9 @@
+<svg id="email" xmlns="http://www.w3.org/2000/svg" width="398" height="190" viewBox="0 0 398 190">
+  <g id="Background" fill="#e3d9d6" stroke="#734432" stroke-width="3">
+    <rect width="398" height="190" rx="20" stroke="none"/>
+    <rect x="1.5" y="1.5" width="395" height="187" rx="18.5" fill="none"/>
+  </g>
+  <rect id="white" width="49" height="22" transform="translate(55 76)" fill="#fff"/>
+  <path id="Icon_material-email" data-name="Icon material-email" d="M57,6H9a5.992,5.992,0,0,0-5.97,6L3,48a6.018,6.018,0,0,0,6,6H57a6.018,6.018,0,0,0,6-6V12A6.018,6.018,0,0,0,57,6Zm0,12L33,33,9,18V12L33,27,57,12Z" transform="translate(47 65)" fill="#734432"/>
+  <text id="email-2" data-name="email" transform="translate(137 113)" fill="#734432" font-size="48" font-family="LexendZetta-Regular, Lexend Zetta"><tspan x="0" y="0">email</tspan></text>
+</svg>

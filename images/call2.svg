@@ -1,0 +1,9 @@
+<svg id="call" xmlns="http://www.w3.org/2000/svg" width="398" height="190" viewBox="0 0 398 190">
+  <g id="Background" fill="#ede2d8" stroke="#a66f3f" stroke-width="3">
+    <rect width="398" height="190" rx="20" stroke="none"/>
+    <rect x="1.5" y="1.5" width="395" height="187" rx="18.5" fill="none"/>
+  </g>
+  <rect id="white" width="36" height="59" transform="translate(53 70)" fill="#fff"/>
+  <path id="Icon_material-phonelink-ring" data-name="Icon material-phonelink-ring" d="M57.368,21.625l-3,3c5.407,5.407,5.407,13.817,0,19.524l3,3c7.509-6.909,7.509-18.323,0-25.532ZM51.06,27.933l-3,3a5.86,5.86,0,0,1,0,6.909l3,3c3.6-3.6,3.6-9.011,0-12.916ZM39.045,1.5H9.008A6.025,6.025,0,0,0,3,7.508V61.575a6.025,6.025,0,0,0,6.008,6.008H39.045a6.025,6.025,0,0,0,6.008-6.008V7.508A6.025,6.025,0,0,0,39.045,1.5Zm0,57.071H9.008V10.511H39.045Z" transform="translate(47 65.5)" fill="#a66f3f"/>
+  <text id="call-2" data-name="call" transform="translate(137 113)" fill="#a66f3f" font-size="48" font-family="LexendZetta-Regular, Lexend Zetta"><tspan x="0" y="0">call</tspan></text>
+</svg>

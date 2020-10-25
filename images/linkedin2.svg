@@ -1,0 +1,9 @@
+<svg id="linkedin" xmlns="http://www.w3.org/2000/svg" width="398" height="190" viewBox="0 0 398 190">
+  <g id="Background" fill="#dbe1eb" stroke="#6f8abf" stroke-width="3">
+    <rect width="398" height="190" rx="20" stroke="none"/>
+    <rect x="1.5" y="1.5" width="395" height="187" rx="18.5" fill="none"/>
+  </g>
+  <rect id="white" width="51" height="51" transform="translate(55 70)" fill="#fff"/>
+  <path id="Icon_simple-linkedin" data-name="Icon simple-linkedin" d="M51.118,51.13H42.232V37.207c0-3.32-.068-7.592-4.63-7.592-4.632,0-5.34,3.612-5.34,7.347V51.13H23.377V22.5h8.535v3.9h.115a9.363,9.363,0,0,1,8.425-4.625c9,0,10.667,5.925,10.667,13.638V51.13ZM13.342,18.582A5.16,5.16,0,1,1,18.5,13.42,5.155,5.155,0,0,1,13.342,18.582ZM17.8,51.13H8.887V22.5H17.8ZM55.563,0H4.428A4.374,4.374,0,0,0,0,4.322V55.677A4.373,4.373,0,0,0,4.428,60H55.555A4.39,4.39,0,0,0,60,55.678V4.322A4.391,4.391,0,0,0,55.555,0Z" transform="translate(50 65)" fill="#6f8abf"/>
+  <text id="social" transform="translate(137 113)" fill="#6f8abf" font-size="48" font-family="LexendZetta-Regular, Lexend Zetta"><tspan x="0" y="0">social</tspan></text>
+</svg>

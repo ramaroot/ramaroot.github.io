@@ -1,0 +1,43 @@
+<svg id="text" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: #eeeee7;
+      }
+
+      .cls-1 {
+        stroke: #a8aa89;
+        stroke-width: 3px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #a8aa89;
+      }
+
+      .cls-4 {
+        font-size: 10px;
+        font-family: LexendZetta-Regular, Lexend Zetta;
+        opacity: 0;
+      }
+
+      .cls-5 {
+        stroke: none;
+      }
+
+      .cls-6 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Background" class="cls-1">
+    <rect class="cls-5" width="100" height="100" rx="20"/>
+    <rect class="cls-6" x="1.5" y="1.5" width="97" height="97" rx="18.5"/>
+  </g>
+  <rect id="white" class="cls-2" width="19" height="10" transform="translate(41 46)"/>
+  <path id="Icon_material-textsms" data-name="Icon material-textsms" class="cls-3" d="M30,3H6A3,3,0,0,0,3.015,6L3,33l6-6H30a3.009,3.009,0,0,0,3-3V6A3.009,3.009,0,0,0,30,3ZM13.5,16.5h-3v-3h3Zm6,0h-3v-3h3Zm6,0h-3v-3h3Z" transform="translate(32 35)"/>
+  <text id="text-2" data-name="text" class="cls-4" transform="translate(33 77)"><tspan x="0" y="0">text</tspan></text>
+</svg>
