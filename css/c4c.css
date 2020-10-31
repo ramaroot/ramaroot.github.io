@@ -9,3 +9,13 @@ body {
     padding: 0;
     height: 500px;
 }
+
+div [class*=col]{ border:1px solid red}
+
+/* Bootstrap Navigation css */
+
+.nav-link {
+    font-family: Lexend Mega;
+    font-size: 24px;
+    color: #6F8ABF;
+}
