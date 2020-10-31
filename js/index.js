@@ -3,15 +3,20 @@
 console.log("Congratulations. You got it to read the JS file.")
 
 $(".icon").on({
+  
   mouseenter: function (){
-    $("#contactIcon").css("display", "none");
-    $("#contactExpanded").css("display", "block");
+
+    $(this).children(".small-icon").css("display", "none"); 
+    $(this).children(".large-icon").css("display", "block");
   },
+
   mouseleave: function (){
-    $("#contactIcon").css("display", "block");
-    $("#contactExpanded").css("display", "none");  
+
+    $(this).children(".large-icon").css("display", "none"); 
+    $(this).children(".small-icon").css("display", "block");
   },
+
   click:function (){
-    console.log("placeholder for making the contact form")
+    console.log("placeholder event for next move")
   }
 });

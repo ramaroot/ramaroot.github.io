@@ -7,18 +7,11 @@
 }
 
 .icon {
-
+  /* border: 1px solid red; */
+  z-index: 0;
 }
 
-#contactIcon {
-z-index: 0;
-}
-
-#contactExpanded {
-  display:none;
+.large-icon {
+  display: none;
   z-index: 10;
 }
-
-/* #email, #text, #call, #social {
-  display: none;
-} */
