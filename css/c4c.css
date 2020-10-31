@@ -6,6 +6,7 @@ body {
     background-image: url("../images/c4c/jeeps.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center 16%;
     padding: 0;
     height: 500px;
 }
@@ -18,4 +19,8 @@ div [class*=col]{ border:1px solid red}
     font-family: Lexend Mega;
     font-size: 24px;
     color: #6F8ABF;
+}
+
+.jumbotron {
+    background-color: rgb(111, 138, 191, 0.1) ;
 }
