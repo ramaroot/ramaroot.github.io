@@ -9,7 +9,7 @@
     Dark Brown #412D1D;
     Ashy Blue: #6F8ABF;
     Orange: #A66F3F;
-    Olive: #A8AA89;
+    Olive: #A8AA89, rgb(168, 170, 137);
 */
 
 /* See the divs, comment out before publishing */
@@ -32,7 +32,7 @@ body {
 }
   
 .navigation-bar {
-    width: 73%;
+    /* width: 73%; */
     padding: 1% 1% 3% 1%;
 }
   
@@ -112,6 +112,15 @@ p {
     font-size: 36px;
 }
 
+a {
+    color: #734432;
+}
+
+a:hover {
+    color: #6F8ABF;
+    text-decoration: underline;
+}
+
 /* Font Class Styles */
 
 .pb {
@@ -178,13 +187,14 @@ p {
 
 /* Media Query for Navigation and gigantasaurus text */
 @media only screen and (max-width:830px){
-    .navigation-bar {
-        width: 100%;
-    }
         
     .navigation-bar li {
         padding: 5px 10px;
      }
+
+    .n2 a {
+        font-size: 16px;
+    }
 }
   /* Kept for reference if decide to decrease font for small screens
     h1 {
@@ -215,10 +225,6 @@ p {
         font-size: 18px;
     }
     
-    .n2 a {
-        font-size: 12px;
-    }
-
     .logo {
         height: 25px;
     }

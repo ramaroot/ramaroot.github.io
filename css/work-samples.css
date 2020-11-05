@@ -49,6 +49,10 @@
     margin-bottom: 10px;
 }
 
+#row3Img:hover {
+    border: 6px solid #6F8ABF;
+}
+
 #row3Text {
     grid-area: row3Text;
     margin-left: 25px;

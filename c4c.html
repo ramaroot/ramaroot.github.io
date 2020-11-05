@@ -33,88 +33,126 @@
 </head>
 
 <body>
-  <!-- Bootstrap Navigation AND columns!-->
   <div class="container">
-    <div class="row">
-      <ul class="nav">
-        <li class="col"><img class="logo" src="images/logo.png"></li>
-        <li class="nav-item">
-          <a class="nav-link active col" href="work-samples.html">work samples</a>
-        </li>
-        <li class="nav-item col">
-          <a class="nav-link" href="ux-skills.html">skills</a>
-        </li>
-        <li class="nav-item col">
-          <a class="nav-link" href="about.html">about</a>
-        </li>
-        <li class="nav-item col">
-          <a class="nav-link " href="contact.html">contact</a>
-        </li>
-      </ul>
-    </div>
+    <header class="navigation-bar">
+      <div id="navigation-container">
+        <ul class="n2">
+          <img class="logo" src="images/logo.png">
+          <li><a href="about.html">about</a></li>
+          <li><a href="ux-skills.html">skills</a></li>
+          <li><a href="work-samples.html">work</a></li>
+          <li><a href="contact.html">contact</a></li>
+        </ul>
+      </div>
+    </header>
   </div>
-  <div class="hero-image"></div>
+
+  <div class="hero">
+    <img class="img-fluid" src="images/c4c-logo.png">
+  </div>
   <!-- Bootstrap Jumbotron -->
-  <section class="jumbotron">
-      <h1 class="display-4">Crawl 4 The Cure</h1>
-      <h2 class="lead">REDESIGN</p>
-        <hr class="my-4">
-        <h3>Project Description</h3>
-        <p>Crawl 4 The Cure is an event identified as it’s own non-profit organization which donates all it’s proceeds
-          to the National Multiple Sclerosis Society - Upper Midwest Chapter. <br>
-        <h3>Tools</h3>
-        <p>Miro, InVision, Adobe XD</p>
-        <h3>The Problem</h3>
-        <p>The original design provided users with information that was uneasy to access and a website experience that
-          was not responsive between devices.<br>
-        <h3>The Solution</h3>
-        <p>We reorganized the information in a hierarchical order, being sure to clearly address: what, when, where,
-          how, why, and who.</p>
-        <p>
-          <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-        </p>
+  <section class="container">
+    <h2>Mobile Case Study</h2>
+    <hr class="hrDeco">
+    <h3>Project Description</h3>
+    <p class="ps">Crawl 4 The Cure is an event identified as it’s own non-profit organization which donates all it’s
+      proceeds to the National Multiple Sclerosis Society - Upper Midwest Chapter. <br>
+    <h3>Tools</h3>
+    <p class="ps"><a href="#">Miro</a>, <a href="#">InVision</a>, <a href="#">Adobe XD</a></p>
+    <h3>The Problem</h3>
+    <p class="ps">The original design provided users with information that was difficult to access and a website
+      experience that was not responsive between devices.<br>
+    <h3>The Solution</h3>
+    <p class="ps">We reorganized the information in a hierarchical order, being sure to clearly address: what, when,
+      where, how, why, and who.</p>
+  </section>
+  <!-- Case Sticky Navigation-->
+  <nav class="navbar sticky-top shadow-sm" style="margin-bottom: 20px">
+    <div class="container">
+      <a class="navbar-brand n2" href="#top">Top</a>
+      <a class="navbar-brand n2" href="#research">Research</a>
+      <a class="navbar-brand n2" href="#design">Design</a>
+      <a class="navbar-brand n2" href="#iteration">Iteration</a>
+      <a class="navbar-brand n2" href="#prototype">Prototype</a>
+      <a class="navbar-brand n2" href="#final">Final Thoughts</a>
+    </div>
+  </nav>
+
+  <section>
+    <div class="container">
+      <h2 id="research">The Research Phase</h2>
+      <hr class="hrDeco">
+      <p class="ps">Our group conducted 1-on-1 interviews as well as a Google survey of users on social media
+        including Facebook and Instagram. Our research plan focused on these main topics:</p>
+      <hr class="my-4">
+      <div class="row">
+        <div class="col-sm callout">
+          I want to understand what information is most important to our users
+        </div>
+        <div class="col-sm callout">
+          I want to know what engages users when visiting a website
+        </div>
+        <div class="col-sm callout">
+          I want to understand what influences users toward supporting a causes
+        </div>
+      </div>
+      <hr class="my-4">
+      <p class="ps">These topics directed our focus about keeping people informed about the event and increase
+        registration. We also completed a competitor analysis. The results pointed strongly toward a desire for clear
+        communication about the facts.
+      </p>
+      <p class="ps">From there, we created our proto-persona. She took us on a journey to our user flow and initial
+        wireframes.</p>
     </div>
   </section>
   <section>
-    <h2 class="display-4">The Research Phase</h2>
     <div class="container">
-      <div class="row">
-        <div class="col-sm">
-          One of three columns
-        </div>
-        <div class="col-sm">
-          One of three columns
-        </div>
-        <div class="col-sm">
-          One of three columns
-        </div>
+      <h2 id="design">The Design Phase</h2>
+      <hr class="hrDeco">
+      <p class="ps">Design is never finished. But our wireframes were pretty good.</p>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <h2 id="iteration">The Iteration Phase</h2>
+      <hr class="hrDeco">
+      <p class="ps">We tested three users and received feedback to make iterations to our final prototype.</p>
+      <ul>
+        <li>Register button at the top of the homepage</li>
+        <li>Register button in event details</li>
+        <li>An obvious home page button</li>
+        <li>Buttons under sponsor levels</li>
+        <li>Scroll indicator on front page</li>
+        <li>Back button on the contact form</li>
+        <li>Footer</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h2 id="prototype">The Final Prototype</h2>
+      <hr class="hrDeco">
+      <div class="container">
+        <p class="ps">Prototypes are complicated.</p>
+        <div><img src="images/c4c-prototype.jpg"></div>
       </div>
     </div>
   </section>
+
   <section>
-    <div class="jumbotron">
-      <h2 class="display-4">Problem Statement:</h2>
-      <p class="lead">REDESIGN</p>
-  </section>
-  <section>
-    <h2 class="display-4">The Iteration Phase</h2>
-    <ul class="list-group">
-      <li class="list-group-item">Cras justo odio</li>
-      <li class="list-group-item">Dapibus ac facilisis in</li>
-      <li class="list-group-item">Morbi leo risus</li>
-      <li class="list-group-item">Porta ac consectetur ac</li>
-      <li class="list-group-item">Vestibulum at eros</li>
-    </ul>
-  </section>
-  <section>
-    <h2 class="display-4">The Final Prototype</h2>
     <div class="container">
-      <div class="row">
-        <div class="col">Column</div>
-        <div class="col">Column</div>
-        <div class="w-100"></div>
-        <div class="col">Column</div>
-        <div class="col">Column</div>
+      <h2 id="final">Final Thoughts</h2>
+      <hr class="hrDeco">
+      <div class="container">
+        <p class="ps">Ultimately we achieved our goals with restructuring the site. Information was easier to find and
+          the navigation and overall site was far more intuitive. There were sections we wanted to focus on more but had
+          to cut due to constraints.<br>
+          We didn’t get a chance to build out an “About” section. This section would include a
+          more detailed section on the organization and why we raise money for Multiple Sclerosis.
+          There would be a desktop version of the site as well. Similar, but wider.
+          Many of the animations had hiccups and z-axis issues due to the complexity of the project. There was a strong
+          push for animated jeeps that was sadly never realized.</p>
       </div>
     </div>
   </section>
